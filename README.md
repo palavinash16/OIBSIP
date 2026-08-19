@@ -29,7 +29,7 @@ Welcome to my official **Oasis Infobyte Internship (OIBSIP)** repository. This r
 | **Task 1** | Level 1 | **EDA on Retail Sales Data** | ✅ Completed | [`DataAnalytics-L1-EDARetailSales`](./DataAnalytics-L1-EDARetailSales) | Python, Pandas, Seaborn, Matplotlib, Jupyter Notebook |
 | **Task 2** | Level 1 | **Customer Segmentation Analysis** | ✅ Completed | [`DataAnalytics-L1-CustomerSegmentation`](./DataAnalytics-L1-CustomerSegmentation) | Python, Scikit-learn (K-Means), RFM Analysis, Seaborn |
 | **Task 3** | Level 1 | **Cleaning Data** | ⏳ Planned | `DataAnalytics-L1-DataCleaning` | Python, Pandas, NumPy, Data Quality Reporting |
-| **Task 4** | Level 1 | **Sentiment Analysis** | ⏳ Planned | `DataAnalytics-L1-SentimentAnalysis` | Python, NLTK/TextBlob, TF-IDF, Scikit-learn Classifiers |
+| **Task 4** | Level 1 | **Sentiment Analysis** | ✅ Completed | [`DataAnalytics-L1-SentimentAnalysis`](./DataAnalytics-L1-SentimentAnalysis) | Python, NLTK, TF-IDF, Scikit-learn (Naive Bayes, Logistic Regression), WordCloud |
 | **Task 5** | Level 2 | **Predicting House Prices** | ⏳ Planned | `DataAnalytics-L2-HousePricePrediction` | Python, Linear Regression, Feature Correlation, Scikit-learn |
 | **Task 6** | Level 2 | **Wine Quality Prediction** | ⏳ Planned | `DataAnalytics-L2-WineQualityPrediction` | Python, Random Forest, Support Vector Classifier (SVC), Imbalance Analysis |
 | **Task 7** | Level 2 | **Fraud Detection** | ⏳ Planned | `DataAnalytics-L2-FraudDetection` | Python, SMOTE, Logistic Regression, XGBoost, Precision-Recall Metrics |
@@ -50,6 +50,12 @@ Welcome to my official **Oasis Infobyte Internship (OIBSIP)** repository. This r
 - **Key Findings**: Segmented customers into 4 distinct personas (*Champions*, *Loyal Customers*, *At-Risk*, *Lost*). Evaluated optimal cluster count $K=4$ using WCSS Elbow Curve & Silhouette Scores.
 - **Deliverables**: Fully executed [`main.ipynb`](./DataAnalytics-L1-CustomerSegmentation/main.ipynb) notebook, customer dataset, and comprehensive [`README.md`](./DataAnalytics-L1-CustomerSegmentation/README.md).
 
+### 💬 Task 4: Sentiment Analysis (NLP + Machine Learning)
+- **Directory**: [`DataAnalytics-L1-SentimentAnalysis`](./DataAnalytics-L1-SentimentAnalysis)
+- **Objective**: Develop an NLP text preprocessing and classification pipeline to classify customer feedback sentiment into positive, negative, and neutral categories.
+- **Key Findings**: Built TF-IDF feature vectorization pipeline and trained **Multinomial Naive Bayes** and **Logistic Regression** classifiers. Generated WordCloud visual distributions and conducted an in-depth error analysis on sarcasm and implicit sentiment context.
+- **Deliverables**: Fully executed [`main.ipynb`](./DataAnalytics-L1-SentimentAnalysis/main.ipynb) notebook, review dataset, and detailed [`README.md`](./DataAnalytics-L1-SentimentAnalysis/README.md).
+
 ---
 
 ## 🛠️ Repository Setup & Local Execution
@@ -61,7 +67,7 @@ To clone and explore this repository locally:
 git clone https://github.com/palavinash16/OIBSIP.git
 
 # Navigate into project directory
-cd OIBSIP/DataAnalytics-L1-CustomerSegmentation
+cd OIBSIP/DataAnalytics-L1-SentimentAnalysis
 
 # Launch Jupyter Notebook
 jupyter notebook main.ipynb
@@ -72,4 +78,4 @@ jupyter notebook main.ipynb
 ## 📜 Acknowledgments & Certificate Requirements
 Special thanks to **Oasis Infobyte** for providing this hands-on internship opportunity to build industry-ready Data Analytics projects.
 
-*Hashtags: #oasisinfobyte #dataanalytics #datascience #internship #python #eda #customersegmentation #kmeans #rfm*
+*Hashtags: #oasisinfobyte #dataanalytics #datascience #internship #python #eda #customersegmentation #sentimentanalysis #nlp #scikitlearn*
