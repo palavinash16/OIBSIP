@@ -27,7 +27,7 @@ Welcome to my official **Oasis Infobyte Internship (OIBSIP)** repository. This r
 | Task # | Level | Task Title | Status | Project Directory | Tech Stack |
 | :---: | :---: | :--- | :---: | :--- | :--- |
 | **Task 1** | Level 1 | **EDA on Retail Sales Data** | ✅ Completed | [`DataAnalytics-L1-EDARetailSales`](./DataAnalytics-L1-EDARetailSales) | Python, Pandas, Seaborn, Matplotlib, Jupyter Notebook |
-| **Task 2** | Level 1 | **Customer Segmentation Analysis** | ⏳ Planned | `DataAnalytics-L1-CustomerSegmentation` | Python, Scikit-learn (K-Means), RFM Analysis, Seaborn |
+| **Task 2** | Level 1 | **Customer Segmentation Analysis** | ✅ Completed | [`DataAnalytics-L1-CustomerSegmentation`](./DataAnalytics-L1-CustomerSegmentation) | Python, Scikit-learn (K-Means), RFM Analysis, Seaborn |
 | **Task 3** | Level 1 | **Cleaning Data** | ⏳ Planned | `DataAnalytics-L1-DataCleaning` | Python, Pandas, NumPy, Data Quality Reporting |
 | **Task 4** | Level 1 | **Sentiment Analysis** | ⏳ Planned | `DataAnalytics-L1-SentimentAnalysis` | Python, NLTK/TextBlob, TF-IDF, Scikit-learn Classifiers |
 | **Task 5** | Level 2 | **Predicting House Prices** | ⏳ Planned | `DataAnalytics-L2-HousePricePrediction` | Python, Linear Regression, Feature Correlation, Scikit-learn |
@@ -41,12 +41,14 @@ Welcome to my official **Oasis Infobyte Internship (OIBSIP)** repository. This r
 ### 🛒 Task 1: Exploratory Data Analysis on Retail Sales Data
 - **Directory**: [`DataAnalytics-L1-EDARetailSales`](./DataAnalytics-L1-EDARetailSales)
 - **Objective**: Conduct an in-depth Exploratory Data Analysis on a retail sales dataset of 2,000 transactions to uncover customer behavior, product category performance, and peak purchasing trends.
-- **Key Findings**:
-  - **Revenue**: Total sales of **~$912,800** generated across 2,000 transactions with consistent **~79% profit margins**.
-  - **Demographics**: Middle-aged customers (40–59 years) and female shoppers represent the highest revenue-generating demographic.
-  - **Peak Hours**: Shopping activity peaks between **08:00 AM and 11:00 AM**.
-  - **Recommendations**: Formulated 4 strategic recommendations focusing on morning staffing optimization, high-unit-price product bundling, and Q4 promotional timing.
+- **Key Findings**: Total revenue of ~$912,800 with ~79% profit margins across Electronics, Clothing, and Beauty. Morning peak shopping hours identified between 08:00 AM and 11:00 AM.
 - **Deliverables**: Fully executed [`main.ipynb`](./DataAnalytics-L1-EDARetailSales/main.ipynb) notebook and detailed [`README.md`](./DataAnalytics-L1-EDARetailSales/README.md).
+
+### 🎯 Task 2: Customer Segmentation Analysis (RFM + K-Means)
+- **Directory**: [`DataAnalytics-L1-CustomerSegmentation`](./DataAnalytics-L1-CustomerSegmentation)
+- **Objective**: Implement Recency, Frequency, Monetary (RFM) analysis and K-Means machine learning clustering to segment e-commerce customers into actionable marketing cohorts.
+- **Key Findings**: Segmented customers into 4 distinct personas (*Champions*, *Loyal Customers*, *At-Risk*, *Lost*). Evaluated optimal cluster count $K=4$ using WCSS Elbow Curve & Silhouette Scores.
+- **Deliverables**: Fully executed [`main.ipynb`](./DataAnalytics-L1-CustomerSegmentation/main.ipynb) notebook, customer dataset, and comprehensive [`README.md`](./DataAnalytics-L1-CustomerSegmentation/README.md).
 
 ---
 
@@ -59,7 +61,7 @@ To clone and explore this repository locally:
 git clone https://github.com/palavinash16/OIBSIP.git
 
 # Navigate into project directory
-cd OIBSIP/DataAnalytics-L1-EDARetailSales
+cd OIBSIP/DataAnalytics-L1-CustomerSegmentation
 
 # Launch Jupyter Notebook
 jupyter notebook main.ipynb
@@ -70,4 +72,4 @@ jupyter notebook main.ipynb
 ## 📜 Acknowledgments & Certificate Requirements
 Special thanks to **Oasis Infobyte** for providing this hands-on internship opportunity to build industry-ready Data Analytics projects.
 
-*Hashtags: #oasisinfobyte #dataanalytics #datascience #internship #python #eda*
+*Hashtags: #oasisinfobyte #dataanalytics #datascience #internship #python #eda #customersegmentation #kmeans #rfm*
