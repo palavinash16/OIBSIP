@@ -1,0 +1,13 @@
+# Python & Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Scratch & Temporary
+project-1 EDA on Retail Sales Data/
